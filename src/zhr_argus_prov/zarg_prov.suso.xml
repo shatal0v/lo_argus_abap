@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOBJ>
+    <OBJCT>ZARG_PROV</OBJCT>
+    <FIEL1>ZARG_SOTR</FIEL1>
+    <OCLSS>ZARG</OCLSS>
+   </TOBJ>
+   <TOBJT>
+    <LANGU>R</LANGU>
+    <OBJECT>ZARG_PROV</OBJECT>
+    <TTEXT>Полномочия на Аргус Проверки</TTEXT>
+   </TOBJT>
+   <TOBJVORFLG>
+    <OBJCT>ZARG_PROV</OBJCT>
+   </TOBJVORFLG>
+  </asx:values>
+ </asx:abap>
+</abapGit>

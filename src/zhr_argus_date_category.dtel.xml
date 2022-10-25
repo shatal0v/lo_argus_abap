@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZHR_ARGUS_DATE_CATEGORY</ROLLNAME>
+    <DDLANGUAGE>R</DDLANGUAGE>
+    <DOMNAME>ZHR_ARGUS_DATE_CATEGORY</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Категория сотрудника</DDTEXT>
+    <REPTEXT>Категория сотрудника</REPTEXT>
+    <SCRTEXT_S>Категория</SCRTEXT_S>
+    <SCRTEXT_M>Категория сотрудника</SCRTEXT_M>
+    <SCRTEXT_L>Категория сотрудника</SCRTEXT_L>
+    <DTELMASTER>R</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

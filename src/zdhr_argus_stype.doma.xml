@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZDHR_ARGUS_STYPE</DOMNAME>
+    <DDLANGUAGE>R</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000001</LENG>
+    <OUTPUTLEN>000001</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Тип справки</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZDHR_ARGUS_STYPE</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Основная</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDHR_ARGUS_STYPE</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>U</DOMVALUE_L>
+     <DDTEXT>Уточняющая</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

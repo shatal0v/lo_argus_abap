@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_NROB" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <ATTRIBUTES>
+    <OBJECT>Z_ARGUS</OBJECT>
+    <DOMLEN>NUM12</DOMLEN>
+    <PERCENTAGE>5.0</PERCENTAGE>
+    <NOIVBUFFER>00000010</NOIVBUFFER>
+    <NONRSWAP>X</NONRSWAP>
+   </ATTRIBUTES>
+   <TEXT>
+    <LANGU>R</LANGU>
+    <OBJECT>Z_ARGUS</OBJECT>
+    <TXT>Номера справок о расходах для системы Аргус</TXT>
+    <TXTSHORT>Номера справ о расхо</TXTSHORT>
+   </TEXT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

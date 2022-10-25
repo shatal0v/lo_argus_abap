@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ARGUS_SEARCH</CLSNAME>
+    <LANGU>R</LANGU>
+    <DESCRIPT>Поиск сотрудников</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_SEARCH</CLSNAME>
+     <CMPNAME>ADD_FILTER</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Filter</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_SEARCH</CLSNAME>
+     <CMPNAME>GV_SEARK</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Стринг параметра</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_SEARCH</CLSNAME>
+     <CMPNAME>INIT</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Init</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_SEARCH</CLSNAME>
+     <CMPNAME>SEARCH</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Search</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_SEARCH</CLSNAME>
+     <CMPNAME>SET_SEARK</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Seark</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

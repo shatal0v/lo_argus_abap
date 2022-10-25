@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZSHR_ARGUS_EXPENSE_AND_SOURCE</TABNAME>
+    <DDLANGUAGE>R</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <LANGDEP>X</LANGDEP>
+    <DDTEXT>Аргус. Справка. Сведения о расходах и источники средств</DDTEXT>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <TABNAME>ZSHR_ARGUS_EXPENSE_AND_SOURCE</TABNAME>
+     <FIELDNAME>SOURCE_T</FIELDNAME>
+     <POSITION>0001</POSITION>
+     <ROLLNAME>ZTHR_ARGUS_SURC0_T</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <DATATYPE>TTYP</DATATYPE>
+     <MASK>  TTYPL</MASK>
+     <COMPTYPE>L</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>ZSHR_ARGUS_EXPENSE_AND_SOURCE</TABNAME>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <POSITION>0002</POSITION>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>ZTHR_ARGUS_EXPN0</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Аргус. Справка. Сведения о расходах</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>EXPENSE</GROUPNAME>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

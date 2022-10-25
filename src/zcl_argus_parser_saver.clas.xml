@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ARGUS_PARSER_SAVER</CLSNAME>
+    <LANGU>R</LANGU>
+    <DESCRIPT>Аргус. Сохранение справок</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_PARSER_SAVER</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_PARSER_SAVER</CLSNAME>
+     <CMPNAME>GS_PARSER</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Аргус. Парсер</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_PARSER_SAVER</CLSNAME>
+     <CMPNAME>GS_SOURCE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>X-стринг</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_PARSER_SAVER</CLSNAME>
+     <CMPNAME>SAVE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Save</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

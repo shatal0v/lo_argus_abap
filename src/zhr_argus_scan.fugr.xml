@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Аргус. Сканирование</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZHR_ARGUS_SCANTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZHR_ARGUS_SCAN</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZHR_ARGUS_SCAN_ASYNC</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Аргус. Асинхронное сканирование</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_SLUG</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>PSTRING</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_SLUG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Стринг параметра</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHR_ARGUS_SCAN_ASYNC_CHECK</FUNCNAME>
+     <SHORT_TEXT>Сканирование. В процессе?</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_SLUG</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PSTRING</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_COMPLETED</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>FLAG</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NOT_FOUND</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_SLUG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Стринг параметра</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_COMPLETED</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Общий флаг</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NOT_FOUND</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Не найдено</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZHR_ARGUS_SCAN_ASYNC_GET</FUNCNAME>
+     <SHORT_TEXT>Получить результаты сканирования</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_SLUG</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PSTRING</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_REF</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTHR_ARGUS_PARSER</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NOT_FOUND</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_SLUG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Стринг параметра</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_REF</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Аргус. Распознавание</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NOT_FOUND</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Не найдено</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

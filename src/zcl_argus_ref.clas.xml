@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+    <LANGU>R</LANGU>
+    <DESCRIPT>Аргус. Справка</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>APPROVE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Approve</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>CHECK</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Check</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Delete</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>ERRORED</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Approve</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>FORMAT_CAMEL</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Format camel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GET_ALL_REF</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Get all ref</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GET_APPLICANT</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Get applicant</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GET_PREV_REF</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Get prev ref</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GET_REL_REF</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Get rel ref</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GS_ADDR0</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Аргус. Справка. Данные регистрации</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GS_BASE0</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Аргус. Справка. Данные справки</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GS_PERS0</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Аргус. Справка. Персональные данные</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GS_WORK0</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Аргус. Справка. Место работы</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GT_BANK0</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Аргус. Справка. Банк</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GT_BLDN0</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Аргус. Справка. Недвижимость</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GT_EXPN0</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Аргус. Справка. Сведения о расходах</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GT_GIFT0</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Аргус. Справка. Безвоздмездные сделки</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GT_INCM0</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Аргус. Справка. Сведения о доходах</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GT_OBLI0</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Аргус. Справка. Обязательства имущественного характера</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GT_OSEC0</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Аргус. Справка. Ценные бумаги</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GT_SECU0</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Аргус. Справка. Ценные бумаги</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GT_SURC0</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Аргус. Справка. Источники дохода</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GT_TRAN0</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Аргус. Справка. Транспорт</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GT_URGE0</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Аргус. Справка. Срочные обязательства финансового характера</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>GV_REF_ID</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Стринг параметра</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>HAS_SUB_REF</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Has sub ref</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ARGUS_REF</CLSNAME>
+     <CMPNAME>REJECT</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Reject</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
